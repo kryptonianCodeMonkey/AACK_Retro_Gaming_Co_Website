@@ -1,0 +1,370 @@
+*{box-sizing: border-box;}
+header, nav, main, footer	{display: block; }
+
+
+body{ 
+	background-color:  #000000; /* background of outside */
+	color: #FF7000;
+	font-family: Arial, Verdana, sans-serif; 
+	padding: 0;
+}
+header{ 
+	background-color: #000000; 
+	text-align: center;
+	color: #00FFFF;
+    height: 130px;
+	background-image: url(diceLogo.png);
+	background-size: 150px 100%;
+	background-repeat: no-repeat; 
+}
+h1{ 
+	padding-top: 25px; 
+	padding-left: 120px;
+	margin: 0;
+	font-size: 3em;
+	letter-spacing: 4px;
+	font-family: futura;
+	color: #FF0000;
+}
+h4{ 
+	background-color: #ED1313; 
+	color: #FFFF00;
+	padding-left: .5em;
+	font-size: 1.2em;
+	padding-bottom: 0em; 
+	padding-top: 0.1em;
+	text-transform: uppercase;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #3AE403;
+	clear: left; 
+}
+nav{ 
+	font-weight: bold;
+	text-align: center; 
+	font-size: 1.5em;
+	padding-top: 10px; 
+	float: left;
+	width: 200px; 
+	position: relative;
+}
+nav a{ 
+	text-decoration: none; 
+	border: outset 4px #3AE403;
+	display: block;
+	margin: 1em;
+	padding: 2px;
+	transition: color 0.5s linear;
+}
+nav a:link{ 
+	color:  #FF7000; 
+}
+nav a:visited{ 
+	color: #FF7000; 
+}
+nav a:hover{ 
+	color: #0070FF; 
+}
+nav ul{ 
+	list-style-type: none;
+	padding-left: 0em; 
+}
+main{
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-bottom: 2em;
+	padding-top: 0em;
+	margin-left: 200px;
+ 	background-color: #000000; /* background color of main */
+	color: #FFD700;
+	display: block; 
+	min-height: 500px;
+}
+main a{	
+	text-decoration: none; 
+	display: block;
+	transition: color 1s linear;
+	padding: 5px;
+}
+main a:link {
+	color: #FF7000; 
+}
+main a:visited{ 
+	color: #FF7000; 
+}
+main a:hover{ 
+	color: #0070FF; 
+}
+main ul{
+	list-style-type: none; 
+}
+main li{
+	padding-bottom: 5px;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl{ 
+	padding-left: 3em; padding-right: 2em; 
+}
+footer{ 
+	background-color: #3AE403;
+	color: #000000;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center; 
+	padding-bottom: 10px;
+	padding-top: 5px;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #221811; 
+}
+form{
+	padding: 1em; 
+}
+label{ 
+	float: left;
+	display: block; 
+	text-align: right; 
+	width: 8em; 
+	padding-right: 1em; 
+}
+input, textarea{ 
+	display: block; 
+	margin-bottom: 1em; 
+}
+.details{ 
+	padding-left: 10%;
+	padding-right: 10%; 
+	overflow: auto; 
+}
+.floatleft{ 
+	float: left;
+	padding-right: 2em;
+	padding-bottom: 1em; 
+}
+
+/*Blog CSS*/
+
+.post {
+	background-color: #008000;
+	padding: 5px;
+	border: 3px solid #FFD700;
+	margin-bottom: 5px;
+	margin-right: 3px;
+}
+.para a {display: inline;
+		 font-weight: bold;
+		 font-size: 1.2em;}
+.post h3 { padding-left: 2.5em;}
+.post h5 { color: #FFD700; font-size: 0.8em; padding-left: 3.2em; padding-top: 0em;}
+.para {
+	font-size: 0.9em;
+}
+ /* End Blog CSS */
+
+
+h5{ 
+	color: #FF0000;
+	font-size: 1em;
+	
+}  
+img{ 
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+#wrapper{ 
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:  #000000; /* background of nav bar*/
+	min-width: 900px;
+	max-width: 1280px;
+	border: outset 4px #3AE403;
+}	
+#homeIMG{ 
+	background-image: url(homePic.jpg); 
+	background-size: 100% 100%; 
+	height: 250px; 
+}
+#aboutIMG{  
+	background-image: url(aboutIMG.jpg); 
+	background-size: 100% 100%; 
+	height: 250px; 
+}			
+#gameIMG{ 
+	background-image: url(gameIMG.jpg); 
+	background-size: 100% 100%; 
+	height: 250px; 
+}
+#blogIMG{  
+	background-image: url(blogIMG.jpg); 
+	background-size: 100% 100%; 
+	height: 250px; 
+}
+#photoIMG{ 
+	background-image: url(photoIMG.jpg); 
+	background-size: 100% 100%; 
+	height: 250px; 
+}
+#contactIMG{ 
+	background-image: url(contactIMG.jpg); 
+	background-size: 100% 100%; 
+	height: 250px; 
+}			  
+
+#mobile { display: none; }
+#desktop { display: inline; }
+
+@media only screen and (max-width: 1024px){ body {margin: 0; }
+											#wrapper {width: auto; min-width: 0; margin: 0; padding: 0; box-shadow: none; min-height: none;}
+											header {border-bottom: 2.5px solid; border-bottom-color: #82C91D;} 
+											h1 {margin-top: 0; margin-bottom: 1em; padding-top: 1em; padding-bottom: 1em; font-size: 2.5em; } 
+											nav {float: none; width: auto; padding-top: 0; margin: 10px; font-size: 1.3em; } 
+											nav li {display: inline-block; } 
+											nav a {padding: 1em; width: 8em; font-weight: bold; border: outset 4px #82C91D; } 
+											nav ul {padding: 0; margin: 0; } 
+											#cardIMG {margin: 0; padding: 0; }
+											#aboutIMG {margin: 0; padding: 0; }
+											#gameIMG {margin: 0; padding: 0; }
+											#blogIMG {margin: 0; padding: 0; }
+											#photoIMG {margin: 0; padding: 0; }
+											#contactIMG {margin: 0; padding: 0; }
+											main {font-size: 90%; margin: 0; } 
+										}
+											
+@media only screen and (max-width: 768px) { 
+											#wrapper {min-height: none;}
+											header {background-image: none; height: 128px; background-size: 20% 100%;} 
+										    h1 {font-size: 2em; text-align: center; padding-left: 0; padding-top: 1.5em;}				
+											nav {margin: 0; } 
+											nav a {display: block; padding: 0.2em; width: auto; border: outset 4px #82C91D; } 
+											nav li {display: block; } 
+											main {padding-top: 1px; } 
+											h2 {padding-top: 0.5em; padding-right: 0; padding-bottom: 0; padding-left: 0.5em; margin-right: 0.5em; } 
+											.details {padding-left: 0.5em; padding-right: 0; } 
+											.floatleft {padding-left: 0.5em; padding-right: 0.5em}
+											#cardIMG {background-image: none; height: auto; }
+											#aboutIMG {background-image: none; height: auto; }
+											#gameIMG {background-image: none; height: auto; }
+											#blogIMG {background-image: none; height: auto; }
+											#photoIMG {background-image: none; height: auto; }
+											#contactIMG {background-image: none; height: auto; }
+											#mobile {display: inline; }
+
+											}
+											
+											
+#game1 { /*Solitaire*/
+	width: 100%;
+	padding-left: 450px;
+	
+}
+#game1 a{
+
+	padding-top: 20px;
+	text-decoration: none; 
+	display: block;
+	transition: color 1s linear;
+}
+#game1 a:link {
+	color: #FF7000; 
+}
+#game1 a:visited{ 
+	color: #FF7000; 
+}
+#game1 a:hover{ 
+	color: #0070FF; 
+}
+#game1 ul{
+	list-style-type: none; 
+}
+#game1 h2 {
+	
+}										
+
+
+#game2 { /*Hangman*/
+	width: 100%;
+	padding-left: 180px;
+	
+}
+#game2 a{
+	padding-left: 0px;
+	padding-top: 20px;
+	text-decoration: none; 
+	display: block;
+	transition: color 1s linear;
+}
+#game2 a:link {
+	color: #FF7000; 
+}
+#game2 a:visited{ 
+	color: #FF7000; 
+}
+#game2 a:hover{ 
+	color: #0070FF; 
+}
+#game2 ul{
+	list-style-type: none; 
+}
+#game2 h2 {
+	
+}	
+
+#game3 { /*Snake Game*/
+	width: 100%;
+	padding-left: 200px;
+	
+}
+#game3 a{
+	padding-left: 0px;
+	padding-top: 20px;
+	text-decoration: none; 
+	display: block;
+	transition: color 1s linear;
+}
+#game3 a:link {
+	color: #FF7000; 
+}
+#game3 a:visited{ 
+	color: #FF7000; 
+}
+#game3 a:hover{ 
+	color: #0070FF; 
+}
+#game3 ul{
+	list-style-type: none; 
+}
+#game3 h2 {
+	
+}
+
+
+#game4 { /*Puzzle*/
+	width: 100%;
+	padding-left: 150px;
+	
+}
+#game4 a{
+	padding-left: 10px;
+	padding-top: 20px;
+	text-decoration: none; 
+	display: block;
+	transition: color 1s linear;
+}
+#game4 a:link {
+	color: #FF7000; 
+}
+#game4 a:visited{ 
+	color: #FF7000; 
+}
+#game4 a:hover{ 
+	color: #0070FF; 
+}
+#game4 ul{
+	list-style-type: none; 
+}
+#game4 h2 {
+	
+}											
+
+
