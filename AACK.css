@@ -333,10 +333,11 @@ img{
 	list-style-type: none; 
 }
 #game3 h2 {
+	padding-left: 200px;
 }
 #game3 span {
 	padding-left: 60px;
-	font-size:12.5px; 
+	font-size:16px; 
 }
 
 
