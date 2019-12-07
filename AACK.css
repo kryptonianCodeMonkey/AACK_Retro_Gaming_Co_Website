@@ -312,10 +312,8 @@ img{
 
 #game3 { /*Snake Game*/
 	width: 100%;
-	
 }
 #game3 a{
-	padding-left: 200px;
 	padding-top: 20px;
 	text-decoration: none; 
 	display: block;
@@ -334,7 +332,6 @@ img{
 	list-style-type: none; 
 }
 #game3 h2 {
-	padding-left: 200px;
 }
 #game3 span {
 	padding-left: 60px;
