@@ -106,8 +106,8 @@ function preload (){
 
 function create (){
     //display background images and winning image
-    wood = this.add.image(480, 300, 'wood');
-    wood.setScale(.5);
+    //wood = this.add.image(480, 300, 'wood');
+    //wood.setScale(.5);
     plaque = this.add.image(600, 80, 'plaque');
     plaque.setScale(.5);
     win_image = this.add.sprite(-480, 300, 'win');
