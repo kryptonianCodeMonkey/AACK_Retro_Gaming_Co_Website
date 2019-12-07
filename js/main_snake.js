@@ -19,7 +19,7 @@ function updatefoodcoordinates(){
 
 function setup() {
     score = createDiv('Score = 0');
-    score.position(20, 120);
+    score.position(15, 135);
     score.id = "Points";
     score.style('color' , 'white');
 
