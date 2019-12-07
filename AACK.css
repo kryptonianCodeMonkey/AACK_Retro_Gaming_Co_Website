@@ -334,6 +334,10 @@ img{
 #game3 ul{
 	list-style-type: none; 
 }
+#game3 h2 span {
+	padding-left: -60px;
+	font-size:12.5px; 
+}
 
 
 #game4 { /*Puzzle*/
